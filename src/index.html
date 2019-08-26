@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>WebInicio | Quotes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/quotes.css">
+  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="row">
+        <h1 class="logo logo--main">QUOTES</h1>
+        <button class="menu__button" id="openNav">Menu</button>
+      </div>
+    </div>
+    <div id="mainNav" class="menu__overlay">
+      <a href="javascript:void(0)" class="menu__close" id="closeNav">
+        <span class="menu__close__x"></span>
+        <span class="menu__close__txt">close</span>
+      </a>
+      <div class="menu__overlay-content">
+        <ul>
+          <li class="menu__overlay__item"><a href="js:;">home</a></li>
+          <li class="menu__overlay__item"><a href="js:;">about us</a></li>
+          <li class="menu__overlay__item"><a href="js:;">categories</a></li>
+          <li class="menu__overlay__item"><a href="js:;">gallery</a></li>
+          <li class="menu__overlay__item"><a href="js:;">events</a></li>
+          <li class="menu__overlay__item"><a href="js:;">blog</a></li>
+          <li class="menu__overlay__item"><a href="js:;">contact us</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <div id="heroSlider" class="hero carousel slide">
+    <ol class="hero__indicators carousel-indicators" id="carousel-indicators">
+      <li data-target="#heroSlider" data-slide-to="0" class="active"></li>
+      <li data-target="#heroSlider" data-slide-to="1"></li>
+      <li data-target="#heroSlider" data-slide-to="2"></li>
+    </ol>
+    <div class="hero__inner carousel-inner">
+      <div class="item active">
+        <div class="hero__fill" style="background-image:url('images/content/hero/hero_01.png');">
+          <div class="hero__title hero__title--left">
+            <h1 class="hero__title__title">SMILE</h1>
+            <h2 class="hero__title__subtitle">it  cost  you nothing</h2>
+          </div>
+        </div>
+        <div class="carousel-caption"></div>
+      </div>
+      <div class="item">
+        <div class="hero__fill" style="background-image:url('images/content/hero/hero_02.jpg');">
+          <div class="hero__title">
+            <h1 class="hero__title__title">SMILE</h1>
+            <h2 class="hero__title__subtitle">it  cost  you nothing</h2>
+          </div>
+        </div>
+        <div class="carousel-caption"></div>
+      </div>
+      <div class="item">
+        <div class="hero__fill" style="background-image:url('images/content/hero/hero_03.jpg');">
+          <div class="hero__title hero__title--right">
+            <h1 class="hero__title__title">SMILE</h1>
+            <h2 class="hero__title__subtitle">it  cost  you nothing</h2>
+          </div>
+        </div>
+        <div class="carousel-caption"></div>
+      </div>
+      <!-- Controls -->
+      <a class="left carousel-control" href="#heroSlider" data-slide="prev"></a>
+      <a class="right carousel-control" href="#heroSlider" data-slide="next"></a>
+    </div>
+  </div>
+  <section class="section section--about">
+    <div class="container text-center">
+      <h2 class="section--about__title">The most inclusive </h2>
+      <h2 class="section--about__subtitle">Free PSD Template </h2>
+      <p class="section--about__info">Free for commercial and personal use.
+        <br>You can easily edit its contents and code it for yourself or your client</p>
+        <div class="separator"></div>
+      <div class="section--about__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A vitae, laborum, veritatis harum corporis repudiandae at voluptates voluptatum ipsa aut quis. Non ut repellendus eaque rem sit, pariatur. Consequuntur, modi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dignissimos eveniet reiciendis eligendi doloribus id incidunt, accusamus dolorem obcaecati, architecto minima qui quod totam quasi inventore odit dolorum similique sapiente. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab tempore fuga,
+        <br>
+        <br>doloremque reiciendis pariatur quaerat enim quis cumque provident est officiis recusandae assumenda blanditiis ducimus, placeat repudiandae mollitia, animi commodi assumenda blanditiis ducimus, placeat repudiandae mollitia, animi commodi.</div>
+    </div>
+  </section>
+  <section class="section section--quotes-slide-and-image">
+    <article class="section--quotes__slide">
+      <div id="quotesSlider" class="quotes carousel slide">
+        <ol class="quotes__indicators carousel-indicators" id="carousel-indicators">
+          <li data-target="#quotesSlider" data-slide-to="0" class="active"></li>
+          <li data-target="#quotesSlider" data-slide-to="1"></li>
+        </ol>
+        <div class="quotes__inner carousel-inner">
+          <div class="item active">
+            <div class="quotes__fill">
+              <p class="quotes__slider-text">
+                I love people who make me laungh. I honestly think it`s the thing I like most, to laugh. it cures a multitude of ills. It`s probably the most important thing in a person
+              </p>
+              <p class="quotes__slider-text-name">Audrey Hepburn</p>
+            </div>
+            <div class="carousel-caption"></div>
+          </div>
+          <div class="item">
+            <div class="quotes__fill">
+              <p class="quotes__slider-text">
+                I'm very picky with whorm I give my energy to.I prefer to reserve my time, intensy and spirit exclusively to those who reflect sincerity.
+              </p> 
+            </div>
+            <div class="carousel-caption"></div>
+          </div>
+          <!-- Controls -->
+          <a class="carousel-control" href="#quotesSlider" data-slide="prev"></a>
+          <a class="carousel-control" href="#quotesSlider" data-slide="next"></a>
+       </div>  
+     </div>
+    </article>
+    <article class="section--quotes__image"></article>
+    
+  </section>
+  <section class="section section--reasons">
+   <div class="container">
+    <h2 class="section--reasons__title">Reasons to be happy</h2>
+    <div class="separator-reasons"></div>
+    <div class="row">
+       <article class="col-sm-6">
+         <h1 class="section--reasons__subtitles">you are alive</h1>
+         <p class="section--reasons__description">Walking up to see another day is a blessing. Don't take it for granted. Make it count and be happy that you're alive</p>
+         <p class="section--reasons__name">Anonymous</p>
+       </article>
+       <article class="col-sm-6">
+         <h1 class="section--reasons__subtitles">someone loves you</h1>
+         <p class="section--reasons__description">Someone who really loves sees what a mess you can be, how moody you can get, how hard you are to handle, bust still wants you in their life</p>
+         <p class="section--reasons__name">Anonymous</p>
+       </article>
+     </div>
+     <div class="row">
+       <article class="col-sm-6">
+         <h1 class="section--reasons__subtitles">enjoy the moment</h1>
+         <p class="section--reasons__description">Sometimes you will never know the true value of a moment until it becomes a memory</p>
+         <p class="section--reasons__name">Anonymous</p>
+       </article>
+       <article class="col-sm-6">
+         <h1 class="section--reasons__subtitles">health is wealth</h1>
+         <p class="section--reasons__description">It is health is real wealth and not pieces of gold and silver</p>
+         <p class="section--reasons__name">Mahatma Gandhi</p><br>
+       </article>
+     </div>
+    </div>
+    <div class="section--reasons__container__buttom">
+      <button class="section--reasons__buttom">More Reasons</button>
+    </div>
+  </section>
+  
+  <section class="section section--main-quote">
+    <div class="section--main-quote__image">
+      <div class="section--main-quote__title">
+        <h1 class="section--main-quote__title__title">i love you for all that you are, all that you have been, and all you're yet to be</h1>
+        <h2 class="section--main-quote__title__subtitle">Quote of the day, from <u>Love Quotes</u></h2>
+      </div>    
+    </div>
+  </section>
+  <section class="section section-posters">
+    <div class="container">
+      <h2 class="section--posters__title">Buy Posters Prints</h2>
+      <div class="separator-reasons"></div>
+    </div>
+    <div class="section-posters_container">
+      <div class="section-posters_poster01">
+        <img src="../src/images/content/posters/poster_01.png">
+        <div class="container">
+          <h2 class="section-posters_poster01__title">stay<br> true,<br>stay<br>gentleman</h2>
+        </div>
+      </div>
+     <div class="section-posters_poster02">
+       <img src="../src/images/content/posters/poster_02.png">
+       <div class="container">
+         <h2 class="section-posters_poster02__title">And muse of nature with a poet's eye</h2>
+       </div>
+     </div>
+     <div class="section-posters_poster03">
+       <img src="../src/images/content/posters/poster_03.png">
+       <div class="container">
+         <h2 class="section-posters_poster03__title">make work fun y play</h2>
+       </div>
+     </div>
+     <div class="section-posters_poster04">
+       <img src="../src/images/content/posters/poster_04.png">
+       <div class="container">
+         <h2 class="section-posters_poster04__title">silence is golden</h2>
+       </div>
+     </div>
+    </div>
+    <div class="section--posters__container__buttom">
+      <button class="section--posters__buttom">browse posters</button>
+    </div>
+  </section>
+  <section class="section--footer">
+    <div class="container">
+      <div class="row">
+        <article class="col-sm-6 col-md-3">
+          <h2 class="section--footer_article_title">browser</h2>
+          <ul class="section--footer_article_list">
+            <li class="section--footer_article_link">Home</li>
+            <li class="section--footer_article_link">About Us</li>
+            <li class="section--footer_article_link">Categories</li>
+            <li class="section--footer_article_link">Info</li>
+            <li class="section--footer_article_link">Service</li>
+          </ul>
+        </article>
+        <article class="col-sm-6 col-md-3">
+        <h2 class="section--footer_article_title">shop</h2>
+        <ul class="section--footer_article_list">
+          <li class="section--footer_article_link">Account</li>
+          <li class="section--footer_article_link">Help Guide</li>
+          <li class="section--footer_article_link">Shipping Returns</li>
+          <li class="section--footer_article_link">FAQs</li>
+        </ul>
+        </article>
+        <article class="col-sm-6 col-md-3">
+          <h2 class="section--footer_article_title">contact</h2>
+          <p class="section--footer_article_description">Quotes PSD Template Rudra Street, 12354 Villa My state = My Country 987658 <br><br>Phone: +01 234 567 890 <br>Fax: + 01 234 567 890 <br> graphicsfuel@gmail.com</p>
+        </article>
+        <article class="col-sm-6 col-md-3">
+          <h2 class="section--footer_article_title">subscribe now</h2>
+          <p class="section--footer_article_description">Get our latest news and product updates daily</p>
+          <input class="section--footer__input" type="text">
+          <button class="section--footer__buttom_submit">submit</button>
+        </article>
+      </div>
+    </div>
+  </section>
+   <section class="section--social">
+     <div class="container">
+     <h2 class="section--social_copyright">2016 Copyrigth - Quotes PSD Templates. All rights reserved.</h2>
+     <i class="fa fa-facebook" aria-hidden="true"></i>
+     <i class="fa fa-twitter" aria-hidden="true"></i>
+     <i class="fa fa-linkedin" aria-hidden="true"></i>
+     <i class="fa fa-youtube-play" aria-hidden="true"></i>
+     <i class="fa fa-google-plus" aria-hidden="true"></i>
+     <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+     <i class="fa fa-instagram" aria-hidden="true"></i>
+     <i class="fa fa-envelope" aria-hidden="true"></i>
+     </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
+  <script src="js/quotes.js"></script>
+</body>
+
+</html>
